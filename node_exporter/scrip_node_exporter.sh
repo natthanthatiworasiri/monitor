@@ -14,9 +14,6 @@ if [ "$user" != 'root' ]; then
 	fi
 fi
 
-
-
-# upgrade system
 $sh_c "wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz"
 
 $sh_c "tar xvfz node_exporter-1.3.1.linux-amd64.tar.gz"
